@@ -38,5 +38,11 @@ comment -->
   <li>dogs</li>
 </ol>
 <form action="/submit-cat-photo">
-<input type="text" placeholder="cat photo URL">
+<label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
+<label><input type="radio" name="indoor-outdoor">Outdoor</label>
+<label><input type="checkbox" name="personality" checked></label>
+<label><input type="checkbox" name="personality"></label>
+<label><input type="checkbox" name="personality"></label>
+<input type="text" required placeholder="cat photo URL">
+<button type="submit">Submit</button>
 </form>
